@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h2,
+h3,
+h4,
+.nav-item,
+#transition,
+footer {
+    text-align: center;
+}
+
+/************************************HEADER ****************************/
+
+.collapse {
+    margin-left: 5%;
+}
+
+.nav-item,
+.aaaa {
+    font-weight: bold;
+    padding-right: 45px;
+}
+
+li {
+    color: crimson;
+}
+
+header {
+    background-color: #BCF5A9;
+}
+
+#section {
+
+    background: url(../assets/img/main.jpg)no-repeat;
+    background-size: cover;
+    /* border-radius: 0px 0px 20px 20px;
+    margin-bottom: 40px; */
+}
+
+h1 {
+    font-size: 5em;
+    padding: 200px 0 0 20%;
+    text-shadow: -3px 3px 2px #BCF5A9;
+    animation: titre ease 3.5s;
+
+}
+
+@keyframes titre {
+    0% {
+        opacity: 0;
+        transform: translateY(350px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/************************************** LEFTPART ************************************/
+
+#leftPart {
+    background-color: #BCF5A9;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.elements {
+    padding: 70px 0;
+}
+
+.elements img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.elements p {
+
+    font-size: 1.2em;
+
+    /* jquerry: */
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+/*************************************** RIGHTPART **********************************/
+
+#rigthPart {
+
+    background-color: rgba(128, 255, 0, 0.247);
+
+    /* background-color: #9B6833; maron terre */
+
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/******************************************* TABLEAU ******************************/
+
+/* .custom{
+    background-color: #BCF5A9;
+}
+
+tr:nth-of-type(2n) {
+    background-color: #BCF5A9;
+}
+
+tr:hover{
+    background-color: darkorange;
+}
+
+.table-bordered{
+border: 20px;
+} */
+
+
+
+
+/* tr:nth-of-type(2n+1) {
+    background-color: #9B6833;
+} */

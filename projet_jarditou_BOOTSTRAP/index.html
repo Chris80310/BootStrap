@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <title>Accueil</title>
+
+    <style>
+html {
+    scroll-behavior: smooth;
+}
+
+h2,
+h3,
+h4,
+.nav-item,
+#transition,
+footer {
+    text-align: center;
+}
+
+/************************************HEADER ****************************/
+
+.collapse {
+    margin-left: 5%;
+}
+
+.nav-item {
+    font-weight: bold;
+    padding-right: 45px;
+}
+
+header {
+    background-color: #BCF5A9;
+}
+
+#section {
+
+    background: url(../assets/img/main.jpg)no-repeat;
+    background-size: cover;
+    /* border-radius: 0px 0px 20px 20px;
+    margin-bottom: 40px; */
+}
+
+h1 {
+    font-size: 5em;
+    padding: 200px 0 0 20%;
+    text-shadow: -3px 3px 2px #BCF5A9;
+    animation: titre ease 3.5s;
+
+}
+
+#black_p {
+            color: black;
+            text-align: center;
+        }
+
+@keyframes titre {
+    0% {
+        opacity: 0;
+        transform: translateY(350px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/************************************** LEFTPART ************************************/
+
+#leftPart {
+    background-color: #BCF5A9;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.elements {
+    padding: 70px 0;
+}
+
+.elements img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.elements p {
+
+    font-size: 1.2em;
+
+    /* jquerry: */
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+/*************************************** RIGHTPART **********************************/
+
+#rigthPart {
+
+    background-color: rgba(128, 255, 0, 0.247);
+
+    /* background-color: #9B6833; maron terre */
+
+    border-radius: 20px;
+    padding: 20px;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="row">
+            <img src="./assets/img/jarditou_logo2.png" class="img-fluid col-sm-6" id="logo" alt="logo jarditou"
+                title="logo jarditou">
+
+            <p id="black_p" class="introduction m-auto col-sm-6">La qualité depuis 70 ans</p>
+        </div>
+
+    </header>
+
+    <!-- ******************************************************* NAVBAR ************************************************** -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="collapse navbar-collapse">
+            <a href="#" class="nav-item"><img src="./assets/img/logo.png" alt="ver"></a>
+        </div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Jarditou.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/tableau.html">Catalogue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Infos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mentions légales</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Horaires</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Plan du site</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ************************************************* PROMO ********************************************************* -->
+
+    <nav>
+        <img src="./assets/img/promotion.jpg" class="img-fluid w-100" alt="Responsive image" title="promo" id="promo">
+    </nav>
+
+    <!-- ************************************************* SECTION **************************************************** -->
+
+    <div class="d-flex justify-content-center mx-0 w-100" id="section">
+
+        <div class="row">
+
+            <div class="col-lg-8" id="leftPart">
+
+                <div class="container w-100">
+                    <div class="row elements">
+
+                        <div class="col-sm-4 d-flex align-items-center">
+                            <img src="./assets/img/planter.jpg" class="img-fluid" alt="plant">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <article class="article">
+
+                                <u>
+                                    <h2>L'entreprise</h2>
+                                </u>
+
+                                <p>Notre entreprise familiale met tout son savoir-faire à votre disposition dans le
+                                    domaine
+                                    du
+                                    jardin et du paysagisme.</p>
+                                <p>Créée il y a 70 ans, notre entreprise vend fleurs, arbustes, matériel à main et
+                                    motorisés.
+                                </p>
+                                <p>Implantés à Amiens, nous intervenons dans tout le département de la Somme : Albert,
+                                    Doullens,
+
+                                    Péronne, Abbeville, Corbie.</p>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="row elements">
+
+                        <div class="col-sm-4">
+                            <img src="./assets/img/cultiver.jpg" class="img-fluid" alt="cult">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <article class="article">
+
+                                <u>
+                                    <h2>Qualité</h2>
+                                </u>
+
+                                <p>Nous mettons à votre disposition un service personnalisé, avec 1 seul interlocuteur
+                                    durant
+                                    tout votre projet.</p>
+                                <p> Vous serez séduit par notre expertise, nos compétences et notre sérieux.</p>
+
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="row elements">
+                        <div class="col-sm-4">
+                            <img src="./assets/img/quand-planter.jpeg" class="img-fluid" alt="qplant">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <article class="article">
+
+                                <u>
+                                    <h2>Devis gratuit</h2>
+                                </u>
+
+                                <p>Vous pouvez bien sûr contacter pour de plus amples informations ou pour une demande
+                                    d’intervention.</p>
+                                <p>Vous souhaitez un devis ? Nous vous le réalisons gratuitement.</p>
+
+                            </article>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+            <div class="col-lg-4" id="rigthPart">
+
+                <aside id="aside">
+                    <p>TEST</p>
+                </aside>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+<footer></footer>
+
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <style>
+        .collapse {
+            margin-left: 5%;
+        }
+
+        h2,
+        h3,
+        h4,
+        .nav-item,
+        footer {
+            text-align: center;
+        }
+
+        .nav-item {
+            font-weight: bold;
+            padding-right: 45px;
+        }
+
+        header,
+        .custom,
+        tr:nth-of-type(2n) {
+            background-color: #BCF5A9;
+        }
+
+        tr:hover {
+            background-color: darkorange;
+        }
+
+        .table-bordered {
+            border: 0;
+        }
+
+        #black_p {
+            color: black;
+            text-align: center;
+        }
+    </style>
+
+    <title>Tableau</title>
+    <thead>
+
+<body>
+
+
+    <!-- <div class=".table-Responsive"></div> -->
+
+    <section class="table-boot py-5">
+
+        <div class="col-12">
+
+            <header>
+
+                <div class="row">
+                    <img src="./assets/img/jarditou_logo2.png" class="img-fluid col-sm-6" id="logo" alt="logo jarditou"
+                        title="logo jarditou">
+
+                    <p id="black_p" class="introduction m-auto col-sm-6">La qualité depuis 70 ans</p>
+
+                </div>
+
+            </header>
+
+            <!-- ******************************************************* NAVBAR ************************************************** -->
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="collapse navbar-collapse">
+                    <a href="#" class="nav-item"><img src="./assets/img/logo.png" alt="ver"></a>
+                </div>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Jarditou.com</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tableau.html">Catalogue</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Infos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Mentions légales</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Horaires</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Plan du site</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li> -->
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- ******************************************************************************************************************** -->
+
+            <!-- <br><br>
+
+                    <img src="assets/img/promotion.jpg" alt="img_promo" title="img_promo" id="promo">
+                    <br>
+                    <section>
+                <h1>tableau</h1>
+                </section>
+                <hr>
+                <br>
+
+             *************************************************************************************************************************-->
+
+            <div class="container-fluid">
+
+
+                <table class="table table-responsive table-striped table-bordered table-hover">
+
+                    <!-- <caption>Catalogue</caption> -->
+
+                    <thead>
+                        <tr class="custom">
+                            <th scope="col">Photo</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Catégorie</th>
+                            <th scope="col">Libellé</th>
+                            <th scope="col">Prix</th>
+                            <th scope="col">Couleur</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row"><img src="assets/img/7.jpg" class="img-fluid" width="200" alt="img7"
+                                    title="img7"></th>
+                            <td>1</td>
+                            <td>Barbecue</td>
+                            <td>Aramis</td>
+                            <td>110e</td>
+                            <td>Brun</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><img src="assets/img/8.jpg" class="img-fluid" width="200" alt="img8"
+                                    title="img8"></th>
+                            <td>2</td>
+                            <td>Barbecue</td>
+                            <td>Athos</td>
+                            <td>249.99e</td>
+                            <td>Noir</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><img src="assets/img/11.jpg" class="img-fluid" width="200" alt="img11"
+                                    title="img11"></th>
+                            <td>3</td>
+                            <td>Barbecue</td>
+                            <td>Clatronic</td>
+                            <td>135.90e</td>
+                            <td>Chrome</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><img src="assets/img/12.jpg" class="img-fluid" width="200" alt="img12"
+                                    title="img12"></th>
+                            <td>4</td>
+                            <td>Barbecue</td>
+                            <td>Camping</td>
+                            <td>88.00e</td>
+                            <td>Noir</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><img src="assets/img/13.jpg" class="img-fluid" width="350" alt="img13"
+                                    title="img13"></th>
+                            <td>5</td>
+                            <td>Brouette</td>
+                            <td>Green</td>
+                            <td>49.00e</td>
+                            <td>Verte</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
